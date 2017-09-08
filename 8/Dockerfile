@@ -1,5 +1,5 @@
 FROM tiredofit/alpine:3.6
-MAINTAINER Dave Conroy <daveconroy@selfdesign.org>
+LABEL maintainer="Dave Conroy (dave at tiredofit dot ca)"
 
 ENV LANG=C.UTF-8 \
     JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk/jre \
